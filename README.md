@@ -1,6 +1,7 @@
-# JS :: TP 1
+# Todo List
 
-## Todo List
+## JS :: TP 1
+
 
 1.
 Créer une todolist simple, qui ajoute un élément sur la page
