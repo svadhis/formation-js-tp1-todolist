@@ -1,0 +1,45 @@
+#todos li {
+    list-style-type: none;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 2rem;
+    font-weight: bold;
+    border: 1px solid #CCC;
+}
+
+#done li {
+    list-style-type: none;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 2rem;
+    font-weight: bold;
+    border: 1px solid #CCC;
+    background-color: #9F9;
+    text-decoration: line-through;
+    color: grey
+}
+
+#todos li:nth-child(even) {
+    background-color: #CCF;
+}
+
+#done li:nth-child(even) {
+    background-color: #BFB;
+}
+
+#todos, #done {
+    padding: 0;
+}
+
+#done {
+    margin-top: 30px;
+}
+
+div#nav {
+    padding: 12px;
+    margin-bottom: 30px;
+}
+
+form {
+    margin-bottom: 20px;
+}

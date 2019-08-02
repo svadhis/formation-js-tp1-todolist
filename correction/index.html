@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0-11/css/all.min.css">
+<link rel="stylesheet" href="/assets/style.css">
+<title>Title</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="row text-center">
+            <div id="nav" class="col-12 bg-info">
+                <h1>Ma ToDo List</h1>
+            </div>
+            <div class="col-12">
+                <form method="get" action="" onsubmit="return false;">
+                    <input type="text" id="item-value" name="item">
+                    <button id="add-item" class="btn btn-info" onClick="addItem2()">
+                        Ajouter
+                    </button>
+                </form>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <ul id="todos">
+
+                </ul>
+            </div>
+            <div class="col-12">
+                <ul id="done">
+
+                </ul>
+            </div>
+        </div>
+    </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="/assets/script.js"></script>
+</body>
+</html>
